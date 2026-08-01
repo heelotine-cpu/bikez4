@@ -1640,7 +1640,7 @@ function answerQuestion(raw){
     return `General e-bike battery care: avoid leaving it fully drained for long periods, store around 40-60% charge if you won't ride for a while, and keep it away from extreme heat or cold. For our kit's specific range and charge specs, ask me about "range".`;
   }
   if(/legal|\blaw\b|license|registration|road legal/.test(msg)){
-    return `E-bike rules — max motor wattage, speed limits, whether a license is needed — vary a lot by country and state, so check your local regulations before riding on public roads. Email ${DATA.settings.shopEmail} if you want help with what we know.`;
+    return `E-bike rules — max motor wattage, speed limits, whether a license is needed — vary a lot by country and state, so check your local regulations before riding on public roads. Email ${DATA.settings.shopEmail} if you want help with what we know.`; 
   }
   if(/order|\bbuy\b|purchase|checkout|\bcart\b/.test(msg)){
     return `Add the kit to your cart with "Add to build", then hit checkout — that opens an email pre-filled with your order for us to confirm payment and shipping.`;
